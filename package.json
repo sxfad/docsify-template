@@ -9,7 +9,7 @@
   "scripts": {
     "start": "docsify serve -p 3301",
     "build": "rm -rf ./build && node build.js",
-    "rancher": "GIT_URL=https://github.com/sxfad/docsify-template.git rancher-deploy"
+    "rancher": "GIT_URL=https://gitee.com/sxfad/docsify-template.git rancher-deploy"
   },
   "author": "",
   "license": "ISC",
