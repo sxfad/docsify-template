@@ -9,13 +9,12 @@
   "scripts": {
     "start": "docsify serve -p 3301",
     "build": "rm -rf ./build && node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rancher": "rancher-deploy"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "copyfiles": "^2.4.1",
-    "docsify-cli": "^4.4.3",
-    "fs-extra": "^10.0.0"
+    "@ra-lib/rancher-deploy": "^1.0.14",
+    "docsify-cli": "^4.4.3"
   }
 }
